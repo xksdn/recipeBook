@@ -40,6 +40,7 @@ public class CookRecipeResponse {
         }
     }
 
+
     public static class RecipeRow {
 
         @SerializedName("RCP_SEQ") // 일련번호
@@ -481,6 +482,226 @@ public class CookRecipeResponse {
 
         public String getRCP_NA_TIP() {
             return RCP_NA_TIP;
+        }
+
+        public void setRCP_SEQ(String RCP_SEQ) {
+            this.RCP_SEQ = RCP_SEQ;
+        }
+
+        public void setRCP_NM(String RCP_NM) {
+            this.RCP_NM = RCP_NM;
+        }
+
+        public void setRCP_WAY2(String RCP_WAY2) {
+            this.RCP_WAY2 = RCP_WAY2;
+        }
+
+        public void setRCP_PAT2(String RCP_PAT2) {
+            this.RCP_PAT2 = RCP_PAT2;
+        }
+
+        public void setINFO_WGT(String INFO_WGT) {
+            this.INFO_WGT = INFO_WGT;
+        }
+
+        public void setINFO_ENG(String INFO_ENG) {
+            this.INFO_ENG = INFO_ENG;
+        }
+
+        public void setINFO_CAR(String INFO_CAR) {
+            this.INFO_CAR = INFO_CAR;
+        }
+
+        public void setINFO_PRO(String INFO_PRO) {
+            this.INFO_PRO = INFO_PRO;
+        }
+
+        public void setINFO_FAT(String INFO_FAT) {
+            this.INFO_FAT = INFO_FAT;
+        }
+
+        public void setINFO_NA(String INFO_NA) {
+            this.INFO_NA = INFO_NA;
+        }
+
+        public void setHASH_TAG(String HASH_TAG) {
+            this.HASH_TAG = HASH_TAG;
+        }
+
+        public void setATT_FILE_NO_MAIN(String ATT_FILE_NO_MAIN) {
+            this.ATT_FILE_NO_MAIN = ATT_FILE_NO_MAIN;
+        }
+
+        public void setATT_FILE_NO_MK(String ATT_FILE_NO_MK) {
+            this.ATT_FILE_NO_MK = ATT_FILE_NO_MK;
+        }
+
+        public void setRCP_PARTS_DTLS(String RCP_PARTS_DTLS) {
+            this.RCP_PARTS_DTLS = RCP_PARTS_DTLS;
+        }
+
+        public void setMANUAL01(String MANUAL01) {
+            this.MANUAL01 = MANUAL01;
+        }
+
+        public void setMANUAL_IMG01(String MANUAL_IMG01) {
+            this.MANUAL_IMG01 = MANUAL_IMG01;
+        }
+
+        public void setMANUAL02(String MANUAL02) {
+            this.MANUAL02 = MANUAL02;
+        }
+
+        public void setMANUAL_IMG02(String MANUAL_IMG02) {
+            this.MANUAL_IMG02 = MANUAL_IMG02;
+        }
+
+        public void setMANUAL03(String MANUAL03) {
+            this.MANUAL03 = MANUAL03;
+        }
+
+        public void setMANUAL_IMG03(String MANUAL_IMG03) {
+            this.MANUAL_IMG03 = MANUAL_IMG03;
+        }
+
+        public void setMANUAL04(String MANUAL04) {
+            this.MANUAL04 = MANUAL04;
+        }
+
+        public void setMANUAL_IMG04(String MANUAL_IMG04) {
+            this.MANUAL_IMG04 = MANUAL_IMG04;
+        }
+
+        public void setMANUAL05(String MANUAL05) {
+            this.MANUAL05 = MANUAL05;
+        }
+
+        public void setMANUAL_IMG05(String MANUAL_IMG05) {
+            this.MANUAL_IMG05 = MANUAL_IMG05;
+        }
+
+        public void setMANUAL06(String MANUAL06) {
+            this.MANUAL06 = MANUAL06;
+        }
+
+        public void setMANUAL_IMG06(String MANUAL_IMG06) {
+            this.MANUAL_IMG06 = MANUAL_IMG06;
+        }
+
+        public void setMANUAL07(String MANUAL07) {
+            this.MANUAL07 = MANUAL07;
+        }
+
+        public void setMANUAL_IMG07(String MANUAL_IMG07) {
+            this.MANUAL_IMG07 = MANUAL_IMG07;
+        }
+
+        public void setMANUAL08(String MANUAL08) {
+            this.MANUAL08 = MANUAL08;
+        }
+
+        public void setMANUAL_IMG08(String MANUAL_IMG08) {
+            this.MANUAL_IMG08 = MANUAL_IMG08;
+        }
+
+        public void setMANUAL09(String MANUAL09) {
+            this.MANUAL09 = MANUAL09;
+        }
+
+        public void setMANUAL_IMG09(String MANUAL_IMG09) {
+            this.MANUAL_IMG09 = MANUAL_IMG09;
+        }
+
+        public void setMANUAL10(String MANUAL10) {
+            this.MANUAL10 = MANUAL10;
+        }
+
+        public void setMANUAL_IMG10(String MANUAL_IMG10) {
+            this.MANUAL_IMG10 = MANUAL_IMG10;
+        }
+
+        public void setMANUAL11(String MANUAL11) {
+            this.MANUAL11 = MANUAL11;
+        }
+
+        public void setMANUAL_IMG11(String MANUAL_IMG11) {
+            this.MANUAL_IMG11 = MANUAL_IMG11;
+        }
+
+        public void setMANUAL12(String MANUAL12) {
+            this.MANUAL12 = MANUAL12;
+        }
+
+        public void setMANUAL_IMG12(String MANUAL_IMG12) {
+            this.MANUAL_IMG12 = MANUAL_IMG12;
+        }
+
+        public void setMANUAL13(String MANUAL13) {
+            this.MANUAL13 = MANUAL13;
+        }
+
+        public void setMANUAL_IMG13(String MANUAL_IMG13) {
+            this.MANUAL_IMG13 = MANUAL_IMG13;
+        }
+
+        public void setMANUAL14(String MANUAL14) {
+            this.MANUAL14 = MANUAL14;
+        }
+
+        public void setMANUAL_IMG14(String MANUAL_IMG14) {
+            this.MANUAL_IMG14 = MANUAL_IMG14;
+        }
+
+        public void setMANUAL15(String MANUAL15) {
+            this.MANUAL15 = MANUAL15;
+        }
+
+        public void setMANUAL_IMG15(String MANUAL_IMG15) {
+            this.MANUAL_IMG15 = MANUAL_IMG15;
+        }
+
+        public void setMANUAL16(String MANUAL16) {
+            this.MANUAL16 = MANUAL16;
+        }
+
+        public void setMANUAL_IMG16(String MANUAL_IMG16) {
+            this.MANUAL_IMG16 = MANUAL_IMG16;
+        }
+
+        public void setMANUAL17(String MANUAL17) {
+            this.MANUAL17 = MANUAL17;
+        }
+
+        public void setMANUAL_IMG17(String MANUAL_IMG17) {
+            this.MANUAL_IMG17 = MANUAL_IMG17;
+        }
+
+        public void setMANUAL18(String MANUAL18) {
+            this.MANUAL18 = MANUAL18;
+        }
+
+        public void setMANUAL_IMG18(String MANUAL_IMG18) {
+            this.MANUAL_IMG18 = MANUAL_IMG18;
+        }
+
+        public void setMANUAL19(String MANUAL19) {
+            this.MANUAL19 = MANUAL19;
+        }
+
+        public void setMANUAL_IMG19(String MANUAL_IMG19) {
+            this.MANUAL_IMG19 = MANUAL_IMG19;
+        }
+
+        public void setMANUAL20(String MANUAL20) {
+            this.MANUAL20 = MANUAL20;
+        }
+
+        public void setMANUAL_IMG20(String MANUAL_IMG20) {
+            this.MANUAL_IMG20 = MANUAL_IMG20;
+        }
+
+        public void setRCP_NA_TIP(String RCP_NA_TIP) {
+            this.RCP_NA_TIP = RCP_NA_TIP;
         }
     }
     public static class Result {
